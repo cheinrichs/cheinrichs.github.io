@@ -1,0 +1,60 @@
+/* large devices and wide screens */
+@media only screen and (min-width : 1200px) {
+  .getInTouch{
+    font-size: 9em !important;
+  }
+
+  .coopPhoto{
+    border-radius: 15px !important;
+    height: auto  !important;
+    width: 300px !important;
+  }
+
+  ul {
+    font-size: .8em !important;
+  }
+
+  .landing {
+    background-image: url(../../../images/landing_bg.svg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #section3 {
+    background-image: url(../../../images/landing_bg3.svg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #section5 {
+    background-image: url(../../../images/landing_bg2.svg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .coopPhotoContainer {
+    top: 120px !important
+  }
+  .coopPhoto{
+    border-radius: 5px !important;
+    height: auto  !important;
+    width: 70% !important;
+  }
+
+  .demoButton {
+    width: 350px !important;
+    font-size: 14px !important;
+  }
+  .scrollDownRow1 {
+    position: absolute !important;
+    bottom: 0px !important;
+  }
+  .aboutMeScrollDownRow {
+    position: absolute !important;
+    bottom: 0px !important;
+  }
+  .scrollDownButton {
+    height: 55px !important;
+    margin: 20px !important;
+  }
+
+}

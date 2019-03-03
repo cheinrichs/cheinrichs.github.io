@@ -1,0 +1,295 @@
+$primary-blue: #292F36;
+$highlight: #35798C;
+$highlight2: #ED254E;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+
+  max-width: 100%;
+
+  font-family: Nunito !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.row {
+  margin: 0px !important;
+}
+
+a:link {color: $highlight2;}
+a:active {color: #FFAB05; text-decoration: none; }
+a:visited {color: $highlight2; text-decoration: none; }
+a:hover {color: #FFAB05; text-decoration: none; }
+
+// < -- - -- - Landing - -- - -- >
+
+.landing {
+  height: 100%;
+  width: 100%;
+
+
+  display: table;
+
+  top: 0;
+}
+.landingLogoContainer {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+.fullName{
+  font-size: 5em;
+  font-family: Nunito !important;
+}
+.fullTitle{
+  font-family: Nunito !important;
+  font-weight: 100 !important;
+  font-size: 2.5em;
+  color: $highlight2;
+}
+.logoAndName {
+  margin: auto;
+  max-width: none;
+  width: 100%;
+  text-align: center;
+}
+.landingLogo {
+  height: 150px;
+}
+
+.demoButton {
+  display: inline-block;
+  background-color: $highlight2;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  border-radius: 5px;
+  margin: 10px auto auto auto;
+  transition: .5s;
+}
+
+.demoButton:hover {
+  background-color: $highlight;
+  transition: .5s;
+}
+
+
+#section2 {
+  position: relative;
+  display: inline-block;
+  min-height: 100%;
+  height: auto;
+
+  width: 100%;
+  max-width: 100%;
+
+  background-color: $primary-blue;
+  margin: 0px;
+  color: #FFFFFF;
+}
+
+#section3{
+  position: relative;
+  display: inline-block;
+  min-height: 100%;
+  height: auto;
+
+  width: 100%;
+  max-width: 100%;
+
+  background-color: #FFFFFF;
+  margin: 0px;
+  color: $primary-blue;
+}
+
+#section4 {
+  position: relative;
+  display: inline-block;
+  min-height: 100%;
+  height: auto;
+
+  width: 100%;
+  max-width: 100%;
+
+  background-color: $primary-blue;
+  margin: 0px;
+  color: #FFFFFF;
+}
+
+.viewSourceCode {
+  height: 50px;
+}
+
+#section5 {
+  position: relative;
+  display: inline-block;
+  min-height: 100%;
+  height: auto;
+
+  width: 100%;
+  max-width: 100%;
+
+  background-color: #FFFFFF;
+  margin: 0px;
+  color: $primary-blue;
+}
+
+#section6 {
+  position: relative;
+  display: inline-block;
+  min-height: 100%;
+  width: 100%;
+  max-width: 100%;
+  background-color: $primary-blue;
+  margin: 0px;
+  color: #FFFFFF;
+}
+
+
+
+.appName {
+  font-size: 100px;
+}
+
+.highlight {
+  color: $highlight;
+}
+
+.highlight2 {
+  color: $highlight2
+}
+
+
+.scrollDownRow {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  background-color: red;
+}
+
+
+.appDescriptionContainer {
+  padding: 0px 50px;
+  margin: 0px !important;
+}
+
+.appTextContainer {
+  font-size: 1.5em;
+}
+
+.demoPhoto{
+  margin-top: 42px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.imageContainer {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.red {
+  background-color: red;
+}
+.blueText{
+  color: $primary-blue;
+}
+
+.madeWith {
+  background-color: $highlight2;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.tech1 {
+  background-color: $highlight;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 2px;
+  margin: 2px 1px 1px 0px;
+  font-size: .8em;
+}
+
+.techWhiteText{
+  color: white;
+}
+
+ul {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+li {
+  margin-bottom: 15px;
+  list-style: none;
+  border-left: 5px solid $highlight;
+  padding-left: 10px;
+}
+
+// < -- - -- - About Me - -- - -- >
+
+.coopPhotoContainer {
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+.coopPhoto{
+  border-radius: 15px;
+  height: auto;
+  // width: 100%;
+}
+
+.aboutMe {
+  position: relative;
+  top: 200px;
+  font-size: 18px;
+  vertical-align: middle;
+  text-align: right;
+}
+
+// < -- - -- - Get In Touch - -- - -- >
+
+.getInTouch{
+  margin-top: 1.25em;
+  font-size: 10em;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 0px;
+  line-height: 1em;
+}
+
+.emailMe {
+  text-align: right;
+  vertical-align: bottom;
+  margin-right: 0.25em;
+  font-size: 2em;
+}
+
+.socialMediaIconContainer {
+  text-align: right;
+}
+.socialMediaIcon {
+  height: 50px;
+  margin: 10px .5em 10px 0px;
+}
+
+.privacy_body {
+  margin: 1em;
+}
+
+@import 'scss/mediaQueries/min320.css';
+@import 'scss/mediaQueries/min480.css';
+@import 'scss/mediaQueries/min768.css';
+@import 'scss/mediaQueries/min992.css';
+@import 'scss/mediaQueries/min1200.css';

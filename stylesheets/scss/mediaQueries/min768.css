@@ -1,0 +1,63 @@
+/* most tablets */
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+  .fullName {
+    font-size: 4em !important;
+  }
+  .fullTitle {
+    font-size: 2.5em !important;
+  }
+
+  .appName {
+    font-size: 75px !important;
+  }
+  .appTextContainer {
+    font-size: 2.3em !important;
+  }
+
+  li {
+    border-left: 10px solid #35798C !important;
+    text-align: left !important;
+  }
+
+  .aboutMe {
+    top: 80px !important;
+    text-align: left !important;
+    font-size: 3em !important;
+  }
+  .coopPhotoContainer {
+    top: 80px !important
+  }
+  .coopPhoto{
+    border-radius: 5px !important;
+    height: auto  !important;
+    width: 100% !important;
+  }
+
+  .getInTouch{
+    font-size: 7em !important;
+  }
+  .emailMe {
+    font-size: 2em !important;
+  }
+  .socialMediaIcon {
+    height: 100px !important;
+    margin: 20px 10px 20px 0px !important;
+  }
+
+  .demoButton {
+    width: 100% !important;
+  }
+  .landing {
+    background-image: url(../../../images/landing_bg_992.svg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .scrollDownRow1 {
+    position: absolute !important;
+    bottom: 0px !important;
+  }
+  .scrollDownButton {
+    height: 45px !important;
+    margin: 20px !important;
+  }
+}

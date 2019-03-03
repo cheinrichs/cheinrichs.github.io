@@ -1,0 +1,58 @@
+/* small devices and most phones */
+@media only screen and (min-width : 480px) and (max-width : 768px){
+
+  .fullName {
+    font-size: 3em !important;
+  }
+  .fullTitle {
+    font-size: 1.8em !important;
+  }
+
+  .appName {
+    font-size: 55px !important;
+    text-align: center;
+  }
+  .appTextContainer {
+    font-size: 1.5em !important;
+  }
+  li {
+    text-align: left !important;
+  }
+
+  .aboutMe {
+    top: 60px !important;
+    text-align: center !important;
+  }
+  .coopPhotoContainer {
+    top: 50px !important
+  }
+  .coopPhoto{
+    border-radius: 5px !important;
+    height: auto  !important;
+    width: 80% !important;
+  }
+  .demoButton {
+    width: 100% !important;
+    margin-bottom: 25px !important;
+  }
+
+  .getInTouch{
+    font-size: 5em !important;
+  }
+  .emailMe {
+    font-size: 1.85em !important;
+  }
+  .landing {
+    background-image: url(../../../images/landing_bg_768.svg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .scrollDownRow1 {
+    position: absolute !important;
+    bottom: 0px !important;
+  }
+  .scrollDownButton {
+    height: 55px !important;
+    margin: 15px !important;
+  }
+}

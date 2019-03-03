@@ -1,1 +1,406 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cooper Heinrichs Portfolio</title>
+
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type="text/css">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="//rawgit.com/balupton/jquery-scrollto/gh-pages/lib/jquery-scrollto.js"></script>
+
+</head>
+<body>
+
+  <div class="landing">
+
+    <div class="landingLogoContainer">
+
+      <div class="logoAndName">
+        <img class="landingLogo" src="images/logo-1.svg" alt="">
+        <p class="fullName">COOPER HEINRICHS</p>
+        <p class="fullTitle">Full Stack Engineer</p>
+      </div>
+
+      <div class="scrollDownRow scrollDownRow1">
+        <img id="scrollDown1" class="scrollDownButton" src="images/scroll_down_button.svg" alt="">
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="section2">
+
+    <div class="appDescriptionContainer">
+
+      <div class="row">
+
+        <div class="col-lg-6 col-md-6 col-sm-12 imageContainer ">
+          <img class="demoPhoto img-fluid" src="images/whinny_app_and_website.png" alt="">
+          <div class="hidden-sm hidden-xs">
+            <a href="https://youtu.be/0YngD0A0dyY" target="_blank">
+              <div class="demoButton techWhiteText">
+                <span class="glyphicon glyphicon-play" aria-hidden="true"></span><br>
+                Watch the Demo!
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 appTextContainer">
+          <h1 class="appName">WHINNY</h1>
+          An Android/iOS app and companion website for all things horses.
+          <br>
+          <br>
+          <ul>
+            <li>Individual and group chat with photos and custom emoji</li>
+            <li>User groups with admin management tools</li>
+            <li>Push notifications using APNs and Google Cloud Messaging</li>
+            <li>Web client that allows a user to send content with push notifications to mobile Whinny users</li>
+            <li>Group training and dietary log that allows a user to email themselves a formatted, printable version</li>
+            <li>Email and text account confirmation</li>
+            <li>App usage data logging</li>
+          </ul>
+          <br>
+
+          <div class="hidden-md hidden-lg">
+            <a href="https://youtu.be/0YngD0A0dyY" target="_blank">
+              <div class="demoButton techWhiteText">
+                <span class="glyphicon glyphicon-play" aria-hidden="true"></span><br>
+                Watch the Demo
+              </div>
+            </a>
+          </div>
+
+          <span class="tech1">Ionic</span>
+          <span class="tech1">Angular 1.5</span>
+          <span class="tech1">Knex</span>
+          <span class="tech1">Express</span>
+          <span class="tech1">Node</span>
+          <span class="tech1">Postgres</span>
+          <span class="tech1">Twilio</span>
+          <span class="tech1">Ionic Push</span>
+          <span class="tech1">Gulp</span>
+          <span class="tech1">Test Fairy</span>
+          <span class="tech1">S3</span>
+          <span class="tech1">SparkPost</span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="scrollDownRow">
+      <img id="scrollDown2" class="scrollDownButton" src="images/scroll_down_button_white.svg" alt="">
+    </div>
+
+  </div>
+
+  <div id="section3">
+
+    <div class="appDescriptionContainer">
+
+      <div class="row">
+
+        <div class="hidden-md hidden-lg">
+          <div class="col-lg-6 col-md-6 col-sm-12 imageContainer">
+            <img class="demoPhoto img-fluid" src="http://respect-mag.com/wp-content/uploads/2016/07/011716-NBA-Thunder-Russell-Westbrook-PI-CH.vresize.1200.675.high_.84.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 appTextContainer">
+          <h1 class="appName">BBALL</h1>
+
+          An in-game analytics front-end rebuild for an NBA team analytics team that is currently in use by the coaching staff.
+          It's important to me to honor our NDA, so I am unable to show any screens or code. However, I am able to provide a contact at
+          the team if more information is required.
+          <br>
+          <br>
+
+          <ul>
+            <li>Updating NBA schedule with current score and time</li>
+            <li>Live updating scoreboard, showing timeouts</li>
+            <li>HTML canvas shot chart</li>
+            <li>In depth team statistics, filterable by player</li>
+            <li>Full Chai test suite for statistic calculations</li>
+            <li>Fully responsive for any view size from mobile to large screens</li>
+          </ul>
+          <br>
+
+          <span class="tech1 techWhiteText">Angular 1.5</span>
+          <span class="tech1 techWhiteText">Customized Materialize CSS</span>
+          <span class="tech1 techWhiteText">Sass</span>
+          <span class="tech1 techWhiteText">Proprietary Thunder API</span>
+          <span class="tech1 techWhiteText">Chai</span>
+          <span class="tech1 techWhiteText">TDD</span>
+
+        </div>
+
+        <div class="hidden-sm hidden-xs">
+          <div class="col-lg-6 col-md-6 col-sm-12 imageContainer">
+            <img class="demoPhoto img-fluid" src="images/StockSnap_CPFZBQDCK0.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="scrollDownRow">
+      <img id="scrollDown3" class="scrollDownButton" src="images/scroll_down_button.svg" alt="">
+    </div>
+
+  </div>
+
+  <div id="section4">
+    <div class="appDescriptionContainer">
+      <div class="row">
+
+        <div class="col-lg-6 col-md-6 col-sm-12 imageContainer">
+          <img class="demoPhoto img-fluid" src="images/barn_alert_mobile_and_web.png" alt="">
+
+          <div class="hidden-sm hidden-xs">
+            <a href="http://barn-alert.surge.sh/" target="_blank">
+              <div class="demoButton techWhiteText">
+                <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span><br>
+                View Live Site
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 appTextContainer">
+          <h1 class="appName">BARN ALERT</h1>
+
+          <p>A web app that sends geotargeted text contagious disease warnings to anyone involved in the care of horses.</p>
+          <br>
+          <ul>
+            <li>Contagious disease text alerts by state</li>
+            <li>Twitter updates from the EDCC from the Twitter API</li>
+            <li>Fully mobile responsive</li>
+          </ul>
+          <br>
+
+          <div class="hidden-md hidden-lg">
+            <a href="http://www.fixed-string.surge.sh" target="_blank">
+              <div class="demoButton techWhiteText">
+                <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span><br>
+                View Live Site
+              </div>
+            </a>
+          </div>
+
+          <span class="tech1">React</span>
+          <span class="tech1">Node</span>
+          <span class="tech1">Express</span>
+          <span class="tech1">Postgres</span>
+          <span class="tech1">Cheerio</span>
+          <span class="tech1">Twitter API</span>
+          <span class="tech1">Twilio</span>
+          <span class="tech1">Surge</span>
+          <span class="tech1">React-Bootstrap</span>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="scrollDownRow">
+      <img id="scrollDown4" class="scrollDownButton" src="images/scroll_down_button_white.svg" alt="">
+    </div>
+
+  </div>
+
+  <div id="section5">
+
+    <div class="appDescriptionContainer">
+      <div class="row">
+
+        <div class="col-lg-6 col-md-6 col-sm-12 imageContainer">
+          <img class="demoPhoto img-fluid" src="images/whinny_stickers.png" alt="">
+
+          <div class="hidden-sm hidden-xs">
+            <a href="" target="_blank">
+              <div class="demoButton techWhiteText">
+                <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span><br>
+                View in iOS App Store
+              </div>
+            </a>
+          </div>
+
+          <div class="hidden-sm hidden-xs">
+            <a href="/privacy.html" target="_blank">
+              <div class="demoButton techWhiteText">
+                <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span><br>
+                View Privacy Policy
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 appTextContainer">
+          <h1 class="appName">Whinny Horse Stickers</h1>
+
+          <p>A collection of fun, horse and barn related iOS stickers.</p>
+          <br>
+
+          <div class="hidden-md hidden-lg">
+            <a href="" target="_blank">
+              <div class="demoButton techWhiteText">
+                <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span><br>
+                View in iOS App Store
+              </div>
+            </a>
+          </div>
+
+          <div class="hidden-md hidden-lg">
+            <a href="" target="_blank">
+              <div class="demoButton techWhiteText">
+                <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span><br>
+                View Privacy Policy
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="scrollDownRow">
+      <img id="scrollDown4" class="scrollDownButton" src="images/scroll_down_button_white.svg" alt="">
+    </div>
+
+  </div>
+
+  <div id="section6">
+    <div class="appDescriptionContainer">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 aboutMe">
+
+          <div class="hidden-md hidden-lg">
+            <img class="coopPhoto img-fluid" src="images/cooper_rmnp.png" alt="">
+          </div>
+
+          <h1 class="appName aboutMeTitle">ABOUT ME</h1>
+
+          <div class="hidden-sm hidden-xs">
+            I love being a developer, learning new things, solving problems, and I'd love to build great products for you and your company.
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+
+          <div class="coopPhotoContainer appTextContainer">
+
+            <div class="hidden-xs hidden-sm">
+              <img class="coopPhoto img-fluid" src="images/cooper_rmnp.png" alt="">
+            </div>
+
+            <div class="hidden-sm hidden-xs">
+              <a href="images/CHEINRICHS_Resume_2017.pdf" target="_blank">
+                <div class="demoButton techWhiteText">
+                  <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span><br>
+                  Download My Resume
+                </div>
+              </a>
+            </div>
+
+
+            <div class="hidden-md hidden-lg hidden-xl">
+              <ul>
+                <li>I love learning new things</li>
+                <li>I love solving problems</li>
+                <li>I want to make great products for you and your company</li>
+              </ul>
+              <a href="images/CHEINRICHS_Resume_2017.pdf" target="_blank">
+                <div class="demoButton techWhiteText">
+                  <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span><br>
+                  Download My Resume
+                </div>
+              </a>
+              <br>
+              <br>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div> <!-- end row -->
+    </div> <!-- end appDescriptionContainer -->
+
+    <div class="scrollDownRow aboutMeScrollDownRow">
+      <img id="scrollDown5" class="scrollDownButton" src="images/scroll_down_button.svg" alt="">
+    </div>
+
+  </div>
+
+  <div id="section7">
+    <div class="appDescriptionContainer">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-offset-2 col-md-6 col-sm-8 col-xs-12">
+          <div class="getInTouch">
+            GET IN TOUCH!
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-lg-offset-2 col-md-offset-2 col-md-6 col-sm-8 col-xs-12">
+          <div class="emailMe">
+            Email me at <a href="">Cooper.Heinrichs@gmail.com</a><br>
+            or find me online
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-lg-offset-2 col-md-offset-2 col-md-6 col-sm-8 col-xs-12 socialMediaIconContainer">
+          <a href="https://github.com/cheinrichs" target="_blank">
+            <img class="socialMediaIcon" src="images/github-icon.svg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-lg-offset-2 col-md-offset-2 col-md-6 col-sm-8 col-xs-12 socialMediaIconContainer">
+          <a href="https://www.linkedin.com/in/cooperheinrichs/" target="_blank">
+            <img class="socialMediaIcon" src="images/linked_in.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

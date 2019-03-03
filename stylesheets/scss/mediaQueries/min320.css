@@ -1,0 +1,79 @@
+/*smaller phone viewpoints */
+@media only screen and (min-width : 320px) and (max-width : 479px){
+
+  .fullName {
+    font-size: 2.5em !important;
+  }
+  .fullTitle {
+    font-size: 1.8em !important;
+  }
+  .appDescriptionContainer {
+    padding: 0px 10px !important;
+    margin: 0px !important;
+  }
+  .appName {
+    font-size: 45px !important;
+    text-align: center;
+  }
+  .appTextContainer {
+    font-size: auto;
+  }
+  .demoPhoto{
+    margin-top: 20px !important;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  h3 {
+    font-size: 1.2em !important;
+  }
+
+  li {
+    text-align: left !important;
+  }
+
+  .aboutMe {
+    top: 25px !important;
+    text-align: left !important;
+  }
+  .coopPhotoContainer {
+    top: 50px !important
+  }
+  .coopPhoto{
+    border-radius: 5px !important;
+    height: auto  !important;
+    width: 100% !important;
+  }
+  .downloadMyResume {
+    width: 100% !important;
+  }
+
+  .demoButton {
+    width: 100% !important;
+    margin-bottom: 25px !important;
+  }
+
+  .getInTouch{
+    font-size: 70px !important;
+  }
+  .emailMe {
+    font-size: 1.2em !important;
+  }
+
+  .landing {
+    background-image: url(../../../images/landing_bg_320.svg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .scrollDownRow1 {
+    position: absolute !important;
+    bottom: 0px !important;
+  }
+
+  .scrollDownButton {
+    height: 35px !important;
+    margin: 15px !important;
+  }
+
+}
