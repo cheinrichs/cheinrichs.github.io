@@ -37,25 +37,95 @@
 </head>
 <body>
 
-  <div class="landing">
+  <div class="section">
+    <div class="appDescriptionContainer">
+      <div class="landing">
 
-    <div class="landingLogoContainer">
+        <div class="landingLogoContainer">
 
-      <div class="logoAndName">
-        <img class="landingLogo" src="images/logo-1.svg" alt="">
-        <p class="fullName">COOPER HEINRICHS</p>
-        <p class="fullTitle">Full Stack Engineer</p>
+          <div class="logoAndName">
+            <img class="landingLogo" src="images/logo-1.svg" alt="">
+            <p class="fullName">COOPER HEINRICHS</p>
+            <p class="fullTitle">Software Engineer</p>
+          </div>
+        </div>
       </div>
+    </div>
+    <div class="scrollDownRow">
+      <img id="scrollDown1" class="scrollDownButton" src="images/scroll_down_button.svg" alt="">
+    </div>
+  </div>
 
-      <div class="scrollDownRow scrollDownRow1">
-        <img id="scrollDown1" class="scrollDownButton" src="images/scroll_down_button.svg" alt="">
+  <div class="section">
+
+    <div class="appDescriptionContainer">
+
+      <div class="row">
+
+        <div class="hidden-md hidden-lg">
+          <div class="col-lg-6 col-md-6 col-sm-12 imageContainer">
+            <img class="demoPhoto img-fluid" src="images/atmzr_logo.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 appTextContainer">
+          <h1 class="appName">ATMZR</h1>
+
+          A link shortener API that I built to learn Golang. It uses Mux routing, and I built it with dependency injection so that all routes can be easily unit tested without accessing the database.
+          The API is live at <a href="http://atmzr.herokuapp.com/">http://atmzr.herokuapp.com/</a>
+          <br>
+          <br>
+
+          <ul>
+            <li>A link with a valid hash will be redirect to the original target link</li>
+            <li>CreateLink - creates a shortened link</li>
+            <li>linkStatistics - Allows a user to see how many times a link has been visited</li>
+          </ul>
+          <br>
+
+          <span class="tech1">Golang</span>
+          <span class="tech1">Mux Routing</span>
+          <span class="tech1">Heroku</span>
+          <span class="tech1">Docker</span>
+          <span class="tech1">PostgreSQLQL</span>
+          <span class="tech1">TDD</span>
+
+        </div>
+
+        <div class="hidden-sm hidden-xs">
+          <div class="col-lg-6 col-md-6 col-sm-12 imageContainer">
+            <img class="demoPhoto img-fluid" src="images/atmzr_logo.png" alt="">
+            <div class="hidden-sm hidden-xs">
+              <a href="https://github.com/cheinrichs/linkShortener" target="_blank">
+                <div class="demoButton">
+                  <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span><br>
+                  View the code on Github
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hidden-md hidden-lg">
+          <a href="https://github.com/cheinrichs/linkShortener" target="_blank">
+            <div class="demoButton">
+              <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span><br>
+              View the code on Github
+            </div>
+          </a>
+        </div>
+
       </div>
 
     </div>
 
+    <div class="scrollDownRow">
+      <img id="scrollDown3" class="scrollDownButton" src="images/scroll_down_button.svg" alt="">
+    </div>
+
   </div>
 
-  <div id="section2">
+  <div class="section">
 
     <div class="appDescriptionContainer">
 
@@ -65,7 +135,7 @@
           <img class="demoPhoto img-fluid" src="images/whinny_app_and_website.png" alt="">
           <div class="hidden-sm hidden-xs">
             <a href="https://www.youtube.com/watch?v=Rp4pUZet7bQ" target="_blank">
-              <div class="demoButton techWhiteText">
+              <div class="demoButton">
                 <span class="glyphicon glyphicon-play" aria-hidden="true"></span><br>
                 Watch the Demo!
               </div>
@@ -91,7 +161,7 @@
 
           <div class="hidden-md hidden-lg">
             <a href="https://www.youtube.com/watch?v=Rp4pUZet7bQ" target="_blank">
-              <div class="demoButton techWhiteText">
+              <div class="demoButton">
                 <span class="glyphicon glyphicon-play" aria-hidden="true"></span><br>
                 Watch the Demo
               </div>
@@ -103,7 +173,7 @@
           <span class="tech1">Knex</span>
           <span class="tech1">Express</span>
           <span class="tech1">Node</span>
-          <span class="tech1">Postgres</span>
+          <span class="tech1">PostgreSQLQL</span>
           <span class="tech1">Twilio</span>
           <span class="tech1">Ionic Push</span>
           <span class="tech1">Gulp</span>
@@ -118,12 +188,12 @@
     </div>
 
     <div class="scrollDownRow">
-      <img id="scrollDown2" class="scrollDownButton" src="images/scroll_down_button_white.svg" alt="">
+      <img id="scrollDown2" class="scrollDownButton" src="images/scroll_down_button.svg" alt="">
     </div>
 
   </div>
 
-  <div id="section3">
+  <div class="section">
 
     <div class="appDescriptionContainer">
 
@@ -131,7 +201,7 @@
 
         <div class="hidden-md hidden-lg">
           <div class="col-lg-6 col-md-6 col-sm-12 imageContainer">
-            <img class="demoPhoto img-fluid" src="http://respect-mag.com/wp-content/uploads/2016/07/011716-NBA-Thunder-Russell-Westbrook-PI-CH.vresize.1200.675.high_.84.jpg" alt="">
+            <img class="demoPhoto img-fluid" src="images/StockSnap_CPFZBQDCK0.jpg" alt="">
           </div>
         </div>
 
@@ -154,12 +224,12 @@
           </ul>
           <br>
 
-          <span class="tech1 techWhiteText">Angular 1.5</span>
-          <span class="tech1 techWhiteText">Customized Materialize CSS</span>
-          <span class="tech1 techWhiteText">Sass</span>
-          <span class="tech1 techWhiteText">Proprietary Thunder API</span>
-          <span class="tech1 techWhiteText">Chai</span>
-          <span class="tech1 techWhiteText">TDD</span>
+          <span class="tech1">Angular 1.5</span>
+          <span class="tech1">Customized Materialize CSS</span>
+          <span class="tech1">Sass</span>
+          <span class="tech1">Proprietary Thunder API</span>
+          <span class="tech1">Chai</span>
+          <span class="tech1">TDD</span>
 
         </div>
 
@@ -179,7 +249,7 @@
 
   </div>
 
-  <div id="section4">
+  <div class="section">
     <div class="appDescriptionContainer">
       <div class="row">
 
@@ -188,7 +258,7 @@
 
           <div class="hidden-sm hidden-xs">
             <a href="http://barn-alert.surge.sh/" target="_blank">
-              <div class="demoButton techWhiteText">
+              <div class="demoButton">
                 <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span><br>
                 View Live Site
               </div>
@@ -210,7 +280,7 @@
 
           <div class="hidden-md hidden-lg">
             <a href="http://www.fixed-string.surge.sh" target="_blank">
-              <div class="demoButton techWhiteText">
+              <div class="demoButton">
                 <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span><br>
                 View Live Site
               </div>
@@ -220,7 +290,7 @@
           <span class="tech1">React</span>
           <span class="tech1">Node</span>
           <span class="tech1">Express</span>
-          <span class="tech1">Postgres</span>
+          <span class="tech1">PostgreSQL</span>
           <span class="tech1">Cheerio</span>
           <span class="tech1">Twitter API</span>
           <span class="tech1">Twilio</span>
@@ -232,72 +302,61 @@
     </div>
 
     <div class="scrollDownRow">
-      <img id="scrollDown4" class="scrollDownButton" src="images/scroll_down_button_white.svg" alt="">
+      <img id="scrollDown4" class="scrollDownButton" src="images/scroll_down_button.svg" alt="">
     </div>
 
   </div>
 
-  <div id="section5">
+  <div class="section">
 
     <div class="appDescriptionContainer">
+
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 aboutMe">
 
           <div class="hidden-md hidden-lg">
-            <img class="coopPhoto img-fluid" src="images/cooper_rmnp.png" alt="">
+            <div class="col-lg-6 col-md-6 col-sm-12 imageContainer">
+              <img class="demoPhoto img-fluid" src="images/cooper_rmnp.png" alt="">
+            </div>
           </div>
 
-          <h1 class="appName aboutMeTitle">ABOUT ME</h1>
+          <div class="col-lg-6 col-md-6 col-sm-12 appTextContainer">
+            <h1 class="appName aboutMeTitle">ABOUT ME</h1>
 
-          <div class="hidden-sm hidden-xs">
-            I love being a developer, learning new things, solving problems, and I'd love to build great products for you and your company.
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-md-6 col-sm-12">
-
-          <div class="coopPhotoContainer appTextContainer">
-
-            <div class="hidden-xs hidden-sm">
-              <img class="coopPhoto img-fluid" src="images/cooper_rmnp.png" alt="">
-            </div>
-
-            <div class="hidden-sm hidden-xs">
-              <a href="images/CHeinrichs_Resume_2020.pdf" target="_blank">
-                <div class="demoButton techWhiteText">
-                  <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span><br>
-                  Download My Resume
-                </div>
-              </a>
-            </div>
-
-
-            <div class="hidden-md hidden-lg hidden-xl">
+            <div class="">
               <ul>
+                <li>I love being a software engineer</li>
                 <li>I love learning new things</li>
                 <li>I love solving problems</li>
                 <li>I want to make great products for you and your company</li>
               </ul>
-              <a href="images/CHEINRICHS_Resume_2019.pdf" target="_blank">
-                <div class="demoButton techWhiteText">
-                  <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span><br>
-                  Download My Resume
-                </div>
-              </a>
-              <br>
               <br>
 
+                <a href="images/CHeinrichs_Resume_2020.pdf" target="_blank">
+                  <div class="demoButton">
+                    <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span><br>
+                    Download My Resume
+                  </div>
+                </a>
             </div>
-
           </div>
-        </div>
+
+          <div class="hidden-sm hidden-xs">
+            <div class="col-lg-6 col-md-6 col-sm-12 imageContainer">
+              <img class="demoPhoto img-fluid" src="images/cooper_rmnp.png" alt="">
+            </div>
+          </div>
 
       </div>
+
+    </div>
+
+    <div class="scrollDownRow">
+      <img id="scrollDown1" class="scrollDownButton" src="images/scroll_down_button.svg" alt="">
     </div>
 
   </div>
 
-  <div id="section6">
+  <div class="section">
     <div class="appDescriptionContainer">
       <div class="row">
         <div class="col-xl-6 col-lg-6 col-md-offset-2 col-md-6 col-sm-8 col-xs-12">
