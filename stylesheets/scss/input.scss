@@ -28,15 +28,13 @@ a:hover {color: #FFAB05; text-decoration: none; }
 
 // < -- - -- - Landing - -- - -- >
 
+
 .landing {
-  height: 100%;
   width: 100%;
-
-
   display: table;
-
-  top: 0;
+  height: 88vh;
 }
+
 .landingLogoContainer {
   display: table-cell;
   vertical-align: middle;
@@ -66,93 +64,58 @@ a:hover {color: #FFAB05; text-decoration: none; }
 
 .demoButton {
   display: inline-block;
-  background-color: $highlight2;
+  background-color: #ED254E;
   padding: 10px;
   text-align: center;
   width: 150px;
   border-radius: 5px;
   margin: 10px auto auto auto;
-  transition: .5s;
+  transition: 0.25s;
+  color: white;
 }
+
+.section:nth-child(even) {
+  position: relative;
+  display: inline-block;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  background-color: #292F36;
+  margin: 0px;
+  color: #FFFFFF;
+  .socialMediaIcon {
+    color: #292F36;
+  }
+
+  .scrollDownButton {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(197deg) brightness(100%) contrast(100%);
+  }
+}
+
+.scrollDownButton {
+  cursor: pointer;
+}
+
+.section:nth-child(odd) {
+  position: relative;
+  display: inline-block;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  background-color: #FFFFFF;
+  margin: 0px;
+  color: #292F36;
+}
+
 
 .demoButton:hover {
   background-color: $highlight;
   transition: .5s;
 }
 
-
-#section2 {
-  position: relative;
-  display: inline-block;
-  min-height: 100%;
-  height: auto;
-
-  width: 100%;
-  max-width: 100%;
-
-  background-color: $primary-blue;
-  margin: 0px;
-  color: #FFFFFF;
-}
-
-#section3{
-  position: relative;
-  display: inline-block;
-  min-height: 100%;
-  height: auto;
-
-  width: 100%;
-  max-width: 100%;
-
-  background-color: #FFFFFF;
-  margin: 0px;
-  color: $primary-blue;
-}
-
-#section4 {
-  position: relative;
-  display: inline-block;
-  min-height: 100%;
-  height: auto;
-
-  width: 100%;
-  max-width: 100%;
-
-  background-color: $primary-blue;
-  margin: 0px;
-  color: #FFFFFF;
-}
-
 .viewSourceCode {
   height: 50px;
 }
-
-#section5 {
-  position: relative;
-  display: inline-block;
-  min-height: 100%;
-  height: auto;
-
-  width: 100%;
-  max-width: 100%;
-
-  background-color: #FFFFFF;
-  margin: 0px;
-  color: $primary-blue;
-}
-
-#section6 {
-  position: relative;
-  display: inline-block;
-  min-height: 100%;
-  width: 100%;
-  max-width: 100%;
-  background-color: $primary-blue;
-  margin: 0px;
-  color: #FFFFFF;
-}
-
-
 
 .appName {
   font-size: 100px;
@@ -172,13 +135,14 @@ a:hover {color: #FFAB05; text-decoration: none; }
   display: inline-block;
   width: 100%;
   text-align: center;
-  background-color: red;
+  bottom: 0px;
 }
 
 
 .appDescriptionContainer {
   padding: 0px 50px;
   margin: 0px !important;
+  min-height: 88vh;
 }
 
 .appTextContainer {
@@ -213,12 +177,13 @@ a:hover {color: #FFAB05; text-decoration: none; }
 }
 
 .tech1 {
-  background-color: $highlight;
+  background-color: #35798C;
   padding: 10px 20px;
   display: inline-block;
   border-radius: 2px;
   margin: 2px 1px 1px 0px;
-  font-size: .8em;
+  font-size: 0.8em;
+  color: white;
 }
 
 .techWhiteText{

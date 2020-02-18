@@ -40,10 +40,9 @@ a:hover {
 }
 
 .landing {
-  height: 100%;
   width: 100%;
   display: table;
-  top: 0;
+  height: 88vh;
 }
 
 .landingLogoContainer {
@@ -84,7 +83,40 @@ a:hover {
   width: 150px;
   border-radius: 5px;
   margin: 10px auto auto auto;
-  transition: 0.5s;
+  transition: 0.25s;
+  color: white;
+}
+
+.section:nth-child(even) {
+  position: relative;
+  display: inline-block;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  background-color: #292F36;
+  margin: 0px;
+  color: #FFFFFF;
+}
+.section:nth-child(even) .socialMediaIcon {
+  color: #292F36;
+}
+.section:nth-child(even) .scrollDownButton {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(197deg) brightness(100%) contrast(100%);
+}
+
+.scrollDownButton {
+  cursor: pointer;
+}
+
+.section:nth-child(odd) {
+  position: relative;
+  display: inline-block;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  background-color: #FFFFFF;
+  margin: 0px;
+  color: #292F36;
 }
 
 .demoButton:hover {
@@ -92,67 +124,8 @@ a:hover {
   transition: 0.5s;
 }
 
-#section2 {
-  position: relative;
-  display: inline-block;
-  min-height: 100%;
-  height: auto;
-  width: 100%;
-  max-width: 100%;
-  background-color: #292F36;
-  margin: 0px;
-  color: #FFFFFF;
-}
-
-#section3 {
-  position: relative;
-  display: inline-block;
-  min-height: 100%;
-  height: auto;
-  width: 100%;
-  max-width: 100%;
-  background-color: #FFFFFF;
-  margin: 0px;
-  color: #292F36;
-}
-
-#section4 {
-  position: relative;
-  display: inline-block;
-  min-height: 100%;
-  height: auto;
-  width: 100%;
-  max-width: 100%;
-  background-color: #292F36;
-  margin: 0px;
-  color: #FFFFFF;
-}
-
 .viewSourceCode {
   height: 50px;
-}
-
-#section5 {
-  position: relative;
-  display: inline-block;
-  min-height: 100%;
-  height: auto;
-  width: 100%;
-  max-width: 100%;
-  background-color: #FFFFFF;
-  margin: 0px;
-  color: #292F36;
-}
-
-#section6 {
-  position: relative;
-  display: inline-block;
-  min-height: 100%;
-  width: 100%;
-  max-width: 100%;
-  background-color: #292F36;
-  margin: 0px;
-  color: #FFFFFF;
 }
 
 .appName {
@@ -172,11 +145,13 @@ a:hover {
   display: inline-block;
   width: 100%;
   text-align: center;
+  bottom: 0px;
 }
 
 .appDescriptionContainer {
   padding: 0px 50px;
   margin: 0px !important;
+  min-height: 88vh;
 }
 
 .appTextContainer {
@@ -218,6 +193,7 @@ a:hover {
   border-radius: 2px;
   margin: 2px 1px 1px 0px;
   font-size: 0.8em;
+  color: white;
 }
 
 .techWhiteText {
